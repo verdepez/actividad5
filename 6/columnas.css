@@ -1,0 +1,48 @@
+body{
+	font-family: sans-serif;
+	margin: 0;	
+	}
+	header{
+		background-color: #1cb900;
+		padding: 60px 1px;
+		text-align: center;
+		color: #fff;
+	}
+	h1{
+		font-weight: normal;
+	    margin: 5px;
+	}
+	.limpia{
+		clear: both;
+	}
+	.col-md-33{
+	    float: left;
+	    width: 33%;
+	    padding: 52px 21px;
+	    box-sizing: border-box;
+	}
+	.col-md-33 img{
+		width: 100%
+	}
+	.col-md-33 p{
+		width: 100%
+	}
+	@media (max-width: 480px){
+	h1{
+		font-size: 50px;
+	}
+	
+	.col-sm-33{
+		float: left;
+		width: 100%;
+		margin: 20px auto;
+		padding: 64px 64px 0px 64px;
+	}
+	.col-sm-33 img{
+		width: 100%;
+	}
+	.col-sm-33 p{
+		width: 100%;
+	    font-size: 31px;
+	}	
+	}
